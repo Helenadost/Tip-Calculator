@@ -91,3 +91,29 @@ padding: 1em;
     cursor: ew-resize;
     background: #59daa4;
   }
+
+#billTotal,
+#tipAmount,
+#billTotalWithTip {
+  font-size: 1em;
+  max-width: 7rem;
+  text-align: right;
+}
+
+#tipAmount,
+#billTotalWithTip,
+input:disabled::placeholder {
+  background: none;
+  border: none;
+  color: #f1f2f3;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
