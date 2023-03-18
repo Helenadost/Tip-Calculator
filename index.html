@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="tip-calculator">
+
+        <div class="tip-calculator__title">
+            <h1>Tip Calculator</h1>
+        </div>
+
+        <div class="tip-calculator__content">
+            <div class="form-input-container">
+                <div class="form-box dfl">
+                    <label for="billTotal">Bill Amount</label>
+                    <div>
+                        <input type="number" id="billTotal" placeholder="0,00" min="0">
+                        <label for="billTotal">€</label>
+                    </div>
+                </div>
+
+                <div class="form-box dfl">
+                    <label for="tipInput">Tip</label>
+                    <div>
+                        <input type="range" id="tipInput" min="0" max="100" value="10">
+                        <span class="input-addon" id="tipOutput">10%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-output-container">
+                <div class="form-box dfl">
+                    <label for="tipAmount">Tip Amount</label>
+                    <div>
+                        <input type="number" id="tipAmount" placeholder="0,00" disabled>
+                        <label for="tipAmount">€</label>
+                    </div>
+                </div>
+
+                <div class="form-box dfl">
+                    <label for="billTotalWithTip">Total</label>
+                    <div>
+                        <input type="number" id="billTotalWithTip" placeholder="0,00" disabled>
+                        <label for="billTotalWithTip">€</label>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
