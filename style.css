@@ -22,6 +22,7 @@ color: #f1f2f3;
 border-radius: .5em;
 }
 
+/* TITLE */
 .tip-calculator__title {
 background-image: -o-linear-gradient(330deg, #59daa4 0%, #5ecdcd 100%);
 background-image: linear-gradient(120deg, #59daa4 0%, #5ecdcd 100%);
@@ -34,10 +35,12 @@ padding: .5em;
 color: #232a32;
 }
 
+/* CONTENT */
 .tip-calculator__content {
 padding: 1em;
 }
 
+/* FORM BOXES */
 .form-input-container,
 .form-output-container {
   padding: 1em;
@@ -73,6 +76,7 @@ padding: 1em;
   justify-content: space-between;
 }
 
+/* RANGE INPUT STYLE */
 #tipInput {
     background: -webkit-gradient(linear, left top, right top, from(#59daa4), color-stop(10%, #59daa4), color-stop(10%, #e4f9f0), to(#e4f9f0));
     background: -o-linear-gradient(left, #59daa4 0%, #59daa4 10%, #e4f9f0 10%, #e4f9f0 100%);
@@ -81,17 +85,18 @@ padding: 1em;
     height: 7px;
     outline: none;
     -webkit-appearance: none;
-  }
-  
-  #tipInput::-webkit-slider-thumb {
+}
+
+#tipInput::-webkit-slider-thumb {
     width: 15px;
     height: 15px;
     border-radius: 50%;
     -webkit-appearance: none;
     cursor: ew-resize;
     background: #59daa4;
-  }
+}
 
+/* NUMBER INPUT STYLE */
 #billTotal,
 #tipAmount,
 #billTotalWithTip {
