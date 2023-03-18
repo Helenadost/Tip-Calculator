@@ -1,32 +1,44 @@
 * {
     font-family: sans-serif;
-  }
-  
-  body {
-    background-color: #343c49;
-  }
-  
-  #tip-calculator {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    max-width: 22rem;
-    min-width: 20rem;
-    width: 100%;
-    margin: 0 auto;
-    background-color: #232a32;
-    color: #f1f2f3;
-    border-radius: .5em;
-  }
+}
 
-  .tip-calculator__content {
-    padding: 1em;
-  }
+body {
+background-color: #343c49;
+}
 
-  .form-input-container,
+#tip-calculator {
+position: absolute;
+top: 50%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+max-width: 22rem;
+min-width: 20rem;
+width: 100%;
+margin: 0 auto;
+background-color: #232a32;
+color: #f1f2f3;
+border-radius: .5em;
+}
+
+.tip-calculator__title {
+background-image: -o-linear-gradient(330deg, #59daa4 0%, #5ecdcd 100%);
+background-image: linear-gradient(120deg, #59daa4 0%, #5ecdcd 100%);
+border-radius: 0.5em 0.5em 0 0;
+}
+
+.tip-calculator__title h1 {
+margin: 0 auto;
+padding: .5em;
+color: #232a32;
+}
+
+.tip-calculator__content {
+padding: 1em;
+}
+
+.form-input-container,
 .form-output-container {
   padding: 1em;
   border-radius: 0.5em;
