@@ -60,3 +60,22 @@
   -ms-flex-pack: justify;
   justify-content: space-between;
 }
+
+#tipInput {
+    background: -webkit-gradient(linear, left top, right top, from(#59daa4), color-stop(10%, #59daa4), color-stop(10%, #e4f9f0), to(#e4f9f0));
+    background: -o-linear-gradient(left, #59daa4 0%, #59daa4 10%, #e4f9f0 10%, #e4f9f0 100%);
+    background: linear-gradient(to right, #59daa4 0%, #59daa4 10%, #e4f9f0 10%, #e4f9f0 100%);
+    border-radius: 8px;
+    height: 7px;
+    outline: none;
+    -webkit-appearance: none;
+  }
+  
+  #tipInput::-webkit-slider-thumb {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    -webkit-appearance: none;
+    cursor: ew-resize;
+    background: #59daa4;
+  }
