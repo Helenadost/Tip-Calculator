@@ -25,3 +25,38 @@
   .tip-calculator__content {
     padding: 1em;
   }
+
+  .form-input-container,
+.form-output-container {
+  padding: 1em;
+  border-radius: 0.5em;
+}
+
+.form-input-container {
+  background: #343c49;
+  margin-bottom: 1em;
+}
+
+.form-output-container {
+  border: 1px solid transparent;
+  margin-top: 1em;
+  background: -webkit-gradient(linear, left top, left bottom, from(#232a32), to(#232a32)) padding-box,
+  -webkit-gradient(linear, left top, right top, from(#59daa4), to(#5ecdcd)) border-box;
+  background: -o-linear-gradient(#232a32, #232a32) padding-box,
+  -o-linear-gradient(left, #59daa4, #5ecdcd) border-box;
+  background: linear-gradient(#232a32, #232a32) padding-box,
+  linear-gradient(to right, #59daa4, #5ecdcd) border-box;
+}
+
+.form-box {
+  margin: 2em 0;
+}
+
+.dfl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
