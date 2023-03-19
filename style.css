@@ -52,6 +52,11 @@ padding: 1em;
   margin-bottom: 1em;
 }
 
+#invalidData {
+  display: none;
+  color: #59daa4;
+}
+
 .form-output-container {
   border: 1px solid transparent;
   margin-top: 1em;
@@ -99,6 +104,8 @@ padding: 1em;
 /* NUMBER INPUT STYLE */
 #billTotal,
 #tipAmount,
+#split,
+#perPerson,
 #billTotalWithTip {
   font-size: 1em;
   max-width: 7rem;
@@ -106,6 +113,7 @@ padding: 1em;
 }
 
 #tipAmount,
+#perPerson,
 #billTotalWithTip,
 input:disabled::placeholder {
   background: none;
